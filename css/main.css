@@ -60,7 +60,8 @@ html {
 
 @media print {
 
-  .no-print {
+  .no-print,
+  .inset-img {
     display: none;
   }
 
