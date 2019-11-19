@@ -66,7 +66,7 @@ html {
 
   .inset-img {
     display: none;
-    border-color: none;
+    border-color: #fff;
   }
 
   header {
@@ -75,7 +75,7 @@ html {
 
   .book-ends,
   .chapter-ends {
-    background-color: none;
+    background-color: #fff;
   }
 
 }
