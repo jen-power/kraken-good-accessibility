@@ -60,9 +60,22 @@ html {
 
 @media print {
 
-  .no-print,
+  .no-print {
+    display: none;
+  }
+
   .inset-img {
     display: none;
+    border-color: none;
+  }
+
+  header {
+    color: #000;
+  }
+
+  .book-ends,
+  .chapter-ends {
+    background-color: none;
   }
 
 }
